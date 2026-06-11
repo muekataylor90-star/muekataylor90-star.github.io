@@ -1,1 +1,147 @@
+ * { margin: 0; padding: 0; box-sizing: border-box; }
 
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f6f0;
+      color: #2d2d2d;
+      text-align: center;
+    }
+
+    /* NAVBAR */
+    nav {
+      background-color: #2d6a4f;
+      padding: 16px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo { color: white; font-size: 22px; font-weight: bold; }
+    nav .nav-cta {
+      background-color: #95d5b2;
+      color: #1b4332;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    /* HERO */
+    .hero {
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #d8f3dc, #f9f6f0);
+    }
+    .hero h1 {
+      font-size: 44px;
+      color: #1b4332;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-bottom: 36px;
+    }
+    .hero button {
+      padding: 18px 44px;
+      background-color: #2d6a4f;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .badge {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    /* PRODUCTO */
+    .producto {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      padding: 70px 30px;
+      flex-wrap: wrap;
+      background-color: #ffffff;
+    }
+    .producto-img {
+      width: 280px;
+      height: 280px;
+      background: linear-gradient(135deg, #95d5b2, #2d6a4f);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 90px;
+    }
+    .producto-info { max-width: 380px; text-align: left; }
+    .producto-info h2 { font-size: 32px; color: #1b4332; margin-bottom: 12px; }
+    .producto-info p { font-size: 17px; color: #555; margin-bottom: 24px; line-height: 1.6; }
+    .precio { font-size: 36px; font-weight: bold; color: #2d6a4f; margin-bottom: 8px; }
+    .precio-antes { font-size: 18px; color: #aaa; text-decoration: line-through; margin-bottom: 24px; }
+    .btn-comprar {
+      width: 100%;
+      padding: 16px;
+      background-color: #2d6a4f;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* BENEFICIOS */
+    .beneficios {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      padding: 60px 20px;
+      flex-wrap: wrap;
+      background-color: #f9f6f0;
+    }
+    .card {
+      background: white;
+      padding: 32px 24px;
+      border-radius: 14px;
+      width: 220px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    }
+    .card .icono { font-size: 36px; margin-bottom: 12px; }
+    .card h3 { font-size: 17px; color: #1b4332; margin-bottom: 8px; }
+    .card p { font-size: 14px; color: #777; }
+
+    /* TESTIMONIOS */
+    .testimonios {
+      background-color: #d8f3dc;
+      padding: 60px 20px;
+    }
+    .testimonios h2 { font-size: 30px; color: #1b4332; margin-bottom: 40px; }
+    .reviews {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .review {
+      background: white;
+      padding: 28px;
+      border-radius: 14px;
+      max-width: 280px;
+      text-align: left;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    }
+    .review .estrellas { color: #f4a261; font-size: 18px; margin-bottom: 10px; }
+    .review p { font-size: 15px; color: #555; margin-bottom: 12px; }
+    .review strong { color: #2d6a4f; }
+
+    /* FOOTER */
+    footer {
+      background-color: #1b4332;
+      color: #95d5b2;
+      padding: 30px;
+      font-size: 14px;
+    }
